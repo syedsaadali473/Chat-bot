@@ -1,7 +1,7 @@
 # ── config.py ──────────────────────────────────────────────────────────────
 import os
 
-GEMINI_API_KEY = os.environ.get("GEMINI_API_KEY", "AIzaSyDWqfh_I6ZzOKB3rxfwOUQjNbE0jIM9eDY")
+GEMINI_API_KEY = os.environ.get("GEMINI_API_KEY", "API_KEY")
 API_VERSION = "v1"
 # Gemini models (new SDK)
 EMBEDDING_MODEL = "gemini-embedding-001"   # no "models/" prefix needed
